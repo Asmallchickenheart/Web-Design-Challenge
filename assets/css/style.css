@@ -1,0 +1,76 @@
+.nav-item a {
+  font-size: 12px;
+  color: black;
+  letter-spacing: 2.5px;
+  padding: 25px !important;
+  display: block;
+}
+.navbar-brand {
+  font-family: Georgia, sans-serif;
+}
+.dropdown-item {
+  letter-spacing: normal !important;
+}
+.nav-item a:hover {
+  background-color: black;
+  color: white;
+}
+.side-bar .col {
+  border: 1px solid transparent;
+}
+.side-bar .col:hover {
+  border: 1px solid darkgrey;
+}
+.navbar {
+  --bs-navbar-padding-y: 0;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  background-color: white;
+}
+.side-bar h1 {
+  font-size: 2rem;
+  color: dimgray;
+}
+.comparison .figure-caption {
+  color: #255ca5;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+@media (max-width: 992px) {
+  .navbar {
+    background-color: black;
+  }
+  .navbar .container {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+  }
+  .navbar .navbar-brand {
+    color: white;
+  }
+  .navbar .navbar-toggler:focus,
+  .navbar .navbar-toggler:active,
+  .navbar .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .navbar .dropdown-menu {
+    background-color: black;
+  }
+  .navbar .nav-item a {
+    color: white;
+  }
+  .navbar .nav-item a:hover {
+    background-color: white;
+    color: black;
+  }
+  article {
+    padding-left: 1rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .navbar {
+    background-color: white;
+  }
+}
+/*# sourceMappingURL=style.css.map */

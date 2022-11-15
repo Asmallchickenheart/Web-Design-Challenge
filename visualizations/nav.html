@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="#" data-id="visualizations/index_content" onclick="loadData(this)">Latitude</a>
+    <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            PLOTS
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#" data-id="visualizations/temperature" onclick="loadData(this)">Max Temperature</a>
+            <a class="dropdown-item" href="#" data-id="visualizations/humidity" onclick="loadData(this)">Humidity</a>
+            <a class="dropdown-item" href="#" data-id="visualizations/cloudiness" onclick="loadData(this)">Cloudiness</a>
+            <a class="dropdown-item" href="#" data-id="visualizations/wind_speed" onclick="loadData(this)">Wind Speed</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-id="visualizations/comparison" onclick="loadData(this)">COMPARISON</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-id="visualizations/data" onclick="loadData(this)">DATA</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
